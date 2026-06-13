@@ -30,6 +30,14 @@ The system demonstrates **agentic AI** — where AI agents collaborate autonomou
 
 ---
 
+## 🖼️ Architecture Flow Diagram
+
+![MultiAgent Code Generation System - Architecture Flow](architecture_flow.png)
+
+> **Horizontal I/O Flow:** User Input → Team Lead Agent → Planner / Coder / Tester Agents → execute_code Tool → ✅ Final Output
+
+---
+
 ## 🏗️ System Architecture
 
 ```
@@ -438,11 +446,12 @@ STEP 6: Team Lead reviews test results
 ```
 MultiAgent-Code-Generation-System/
 │
-├── main.py          # 🎯 Core multi-agent pipeline
-├── .env             # 🔑 API keys (not committed to git)
-├── .gitignore       # 🚫 Ignores venv, .env, __pycache__
-├── README.md        # 📖 This file
-└── venv/            # 🐍 Virtual environment (not committed)
+├── main.py               # 🎯 Core multi-agent pipeline
+├── architecture_flow.png # 🖼️ Horizontal I/O architecture diagram
+├── .env                  # 🔑 API keys (not committed to git)
+├── .gitignore            # 🚫 Ignores venv, .env, __pycache__
+├── README.md             # 📖 This file
+└── venv/                 # 🐍 Virtual environment (not committed)
 ```
 
 ---
